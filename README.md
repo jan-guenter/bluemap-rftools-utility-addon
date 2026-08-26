@@ -3,7 +3,7 @@
 A Java 21 BlueMap add-on for the exact `rftoolsutility-1.21-7.0.12` profile in All the Mons
 `1.2.0` / Minecraft `1.21.1`.
 
-Status: visual-review prototype. The exact artifact gate and BlueMap 5.22
+Status: owner-accepted release candidate. The exact artifact gate and BlueMap 5.22
 adapter replace the unsupported custom tank loader with the client's stable
 empty-tank cube and installed textures. The other RFTools Utility blocks retain
 stock rendering for the first comparison pass.
