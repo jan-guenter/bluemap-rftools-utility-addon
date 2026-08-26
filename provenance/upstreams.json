@@ -1,0 +1,69 @@
+{
+  "artifacts": [
+    {
+      "curseforge_file": 8256212,
+      "curseforge_project": 342466,
+      "download_url": "https://www.curseforge.com/api/v1/mods/342466/files/8256212/download",
+      "evidence": "All the Mons 1.2.0 manifest pins CurseForge 342466/8256212; the runtime JAR is byte-identical to that official download",
+      "evidence_tier": "T2_ARTIFACT_EXACT",
+      "file_name": "rftoolsutility-1.21-7.0.12.jar",
+      "key": "rftoolsUtility",
+      "license": "MIT License",
+      "mod_id": "rftoolsutility",
+      "redistributed": false,
+      "sha1": "d82b4c55d7754176a59003098a0fe90667f0e52a",
+      "sha256": "1fdbf7505c6d6f4ef93b8b15961c9c1a6a4d35a5d676297f8f647916238f4d2a",
+      "size": 1434987,
+      "version": "1.21-7.0.12"
+    },
+    {
+      "curseforge_file": 8256201,
+      "curseforge_project": 233105,
+      "download_url": "https://www.curseforge.com/api/v1/mods/233105/files/8256201/download",
+      "evidence": "All the Mons 1.2.0 manifest pins CurseForge 233105/8256201; exact required RFTools library dependency",
+      "evidence_tier": "T2_ARTIFACT_EXACT",
+      "file_name": "mcjtylib-1.21-9.0.21.jar",
+      "key": "mcjtylib",
+      "license": "MIT License",
+      "mod_id": "mcjtylib",
+      "redistributed": false,
+      "sha1": "ae0cadbb2c3f4fabc955e627f8bbefa281aa5d3f",
+      "sha256": "b8eca900d4fe77a495c74137bd6be79c67281e5d7ae67ca55f59980c64960a0e",
+      "size": 699982,
+      "version": "1.21-9.0.21"
+    },
+    {
+      "curseforge_file": 8256204,
+      "curseforge_project": 326041,
+      "download_url": "https://www.curseforge.com/api/v1/mods/326041/files/8256204/download",
+      "evidence": "All the Mons 1.2.0 manifest pins CurseForge 326041/8256204; exact required RFTools base dependency",
+      "evidence_tier": "T2_ARTIFACT_EXACT",
+      "file_name": "rftoolsbase-1.21-6.0.11.jar",
+      "key": "rftoolsBase",
+      "license": "MIT License",
+      "mod_id": "rftoolsbase",
+      "redistributed": false,
+      "sha1": "9614bdc12d6c633801b254a983d30dd4cbeb5aee",
+      "sha256": "5195ba530e6cf9ba61c9954a3297679e6d29aa1b6182e27ae14ea43463dd4b00",
+      "size": 463973,
+      "version": "1.21-6.0.11"
+    }
+  ],
+  "bluemap": {
+    "api_commit": "285c9a60eff3ac2b0cab308ce1058d1565be0971",
+    "commit": "9be321df995a1103808621d529eb72773e719d4d",
+    "license": "MIT",
+    "redistributed": false,
+    "version": "5.22-agent.backport-5.22-mc1.21.1-2"
+  },
+  "pack": {
+    "commit": "c7bb230f21d14d26859d0b92548f089b3a493ad9",
+    "minecraft": "1.21.1",
+    "name": "All the Mons",
+    "neoforge": "21.1.248",
+    "version": "1.2.0"
+  },
+  "profile": "rftoolsutility-1.21-7.0.12",
+  "schema": 1,
+  "source_use": "Runtime interfaces and installed resources may be interpreted only after family-specific evidence is recorded; no candidate classes, assets, binaries, source, or captured meshes are packaged."
+}
