@@ -5,11 +5,14 @@
 package io.github.janguenter.bluemap.rftoolsutility.profile;
 
 import java.util.List;
+import java.util.Set;
 
 /** Exact All the Mons 1.2.0 profile `rftoolsutility-1.21-7.0.12`. */
 public final class RFToolsUtility1217012Profile {
 
     public static final String PROFILE_ID = "rftoolsutility-1.21-7.0.12";
+    public static final String TANK_ID = "rftoolsutility:tank";
+    public static final Set<String> OWNED_BLOCKS = Set.of(TANK_ID);
     public static final List<ArtifactPin> ARTIFACTS = List.of(
             new ArtifactPin(
                     "rftoolsUtility",
@@ -38,5 +41,9 @@ public final class RFToolsUtility1217012Profile {
     );
 
     private RFToolsUtility1217012Profile() {
+    }
+
+    public static boolean owns(String blockId) {
+        return OWNED_BLOCKS.contains(blockId);
     }
 }

@@ -1,10 +1,87 @@
 {
-  "accepted_staging_entries": null,
-  "final_release_artifacts": null,
-  "note": "Populate only after owner visual acceptance; this file is not packaged.",
-  "owner_accepted_staging": null,
-  "repository": "https://github.com/jan-guenter/bluemap-rftools-utility-addon",
   "schema_version": 1,
-  "status": "prototype-not-owner-accepted",
-  "version": "0.1.0-SNAPSHOT"
+  "status": "owner-accepted-release-candidate",
+  "version": "0.1.0-alpha.1",
+  "release_date": "2026-08-26",
+  "repository": "https://github.com/jan-guenter/bluemap-rftools-utility-addon",
+  "tag": "v0.1.0-alpha.1",
+  "maven_coordinate": "io.github.jan-guenter:bluemap-rftools-utility-addon:0.1.0-alpha.1",
+  "owner_accepted_staging": {
+    "accepted_at": "2026-08-26",
+    "commit": "4512da2a98011eeb744b87de18496085341e9756",
+    "tree": "fd2e9e3c0f917bfc48c28dcd56181aadddb702ef",
+    "production_jar_size": 71185,
+    "production_jar_sha256": "a20c23a3eed98d99261c94a4c37fbcee04964e8518078300ac025fb0151e27f9",
+    "accepted_at_map": "rftoolsutility_review",
+    "visual_acceptance": true
+  },
+  "accepted_staging_entries": {
+    "path": "provenance/accepted-staging-entries.sha256",
+    "entry_count": 25,
+    "sha256": "ec71897ca8be609a6963defae678ffb0b2ae5e0e84bec5fb7ab085949c1d202a"
+  },
+  "final_release_artifacts": {
+    "production_jar": {
+      "file_name": "bluemap-rftools-utility-addon-0.1.0-alpha.1.jar",
+      "size": 71184,
+      "sha256": "a9adfd5d2773b9b7ed2a7757b520ea513b5dedeaa0e57eb8349afdb9ebd6dd25"
+    },
+    "sources_jar": {
+      "file_name": "bluemap-rftools-utility-addon-0.1.0-alpha.1-sources.jar",
+      "size": 50658,
+      "sha256": "8b34f2f5762cc1c591078f605a1c488c09380ee92f656298c807463dc364fb8f"
+    },
+    "pom": {
+      "file_name": "bluemap-rftools-utility-addon-0.1.0-alpha.1.pom",
+      "size": 1365,
+      "sha256": "b51c383c34ee37e92bd1fbb48023f1ac06ac106ed2d50ba34040dedfde370350"
+    },
+    "gradle_module": {
+      "file_name": "bluemap-rftools-utility-addon-0.1.0-alpha.1.module.json",
+      "size": 2873,
+      "sha256": "e1995a9747e35ed988389e4abe483457109657ee173929085173459caab3bec3"
+    }
+  },
+  "staged_equivalence": {
+    "entry_manifest": "provenance/accepted-staging-entries.sha256",
+    "identical_non_manifest_entries": 25,
+    "whole_jar_byte_identical": false,
+    "only_changed_entry_bytes": "META-INF/MANIFEST.MF",
+    "change_reason": "Implementation-Version changed from the accepted SNAPSHOT marker to the final release version."
+  },
+  "gallery": {
+    "archive_file_name": "rftoolsutility-gallery-release.zip",
+    "size": 2942,
+    "sha256": "63393b50de6684e925cec0ddbee6d3818dfa8cf7f8d90f8de9fdb46ca85c4767",
+    "review_cases": 31,
+    "published_as_release_asset": false
+  },
+  "ephemeral_ci_inputs": {
+    "rftoolsUtility": {
+      "curseforge_project": 342466,
+      "curseforge_file": 8256212,
+      "size": 1434987,
+      "sha256": "1fdbf7505c6d6f4ef93b8b15961c9c1a6a4d35a5d676297f8f647916238f4d2a"
+    },
+    "mcjtylib": {
+      "curseforge_project": 233105,
+      "curseforge_file": 8256201,
+      "size": 699982,
+      "sha256": "b8eca900d4fe77a495c74137bd6be79c67281e5d7ae67ca55f59980c64960a0e"
+    },
+    "rftoolsBase": {
+      "curseforge_project": 326041,
+      "curseforge_file": 8256204,
+      "size": 463973,
+      "sha256": "5195ba530e6cf9ba61c9954a3297679e6d29aa1b6182e27ae14ea43463dd4b00"
+    },
+    "policy": "Downloaded only into the ephemeral runner, verified before use, and never bundled or uploaded."
+  },
+  "verification": {
+    "production_jar_exact_byte_gate": true,
+    "sources_jar_exact_byte_gate": true,
+    "publication_metadata_exact_byte_gate": true,
+    "staged_equivalence_gate": true,
+    "exact_input_gate": true
+  }
 }
