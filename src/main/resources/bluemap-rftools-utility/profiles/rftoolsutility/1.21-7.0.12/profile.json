@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.248",
+  "rftoolsutility": {
+    "version": "1.21-7.0.12",
+    "size": 1434987,
+    "sha256": "1fdbf7505c6d6f4ef93b8b15961c9c1a6a4d35a5d676297f8f647916238f4d2a"
+  },
+  "mcjtylib": {
+    "version": "1.21-9.0.21",
+    "size": 699982,
+    "sha256": "b8eca900d4fe77a495c74137bd6be79c67281e5d7ae67ca55f59980c64960a0e"
+  },
+  "rftoolsbase": {
+    "version": "1.21-6.0.11",
+    "size": 463973,
+    "sha256": "5195ba530e6cf9ba61c9954a3297679e6d29aa1b6182e27ae14ea43463dd4b00"
+  },
+  "hosts": ["rftoolsutility:tank"],
+  "representation": "deterministic-empty"
+}

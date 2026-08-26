@@ -1,2 +1,32 @@
 case_id	label	x	y	z	block_state	expected
-stock-control	stone stock rendering control	176	100	175	minecraft:stone	stock-visible
+default-analog	Analog default block	162	100	163	rftoolsutility:analog	default-visible
+default-counter	Counter default block	165	100	163	rftoolsutility:counter	default-visible
+default-crafter1	Crafter Tier 1 default block	168	100	163	rftoolsutility:crafter1	default-visible
+default-crafter2	Crafter Tier 2 default block	171	100	163	rftoolsutility:crafter2	default-visible
+default-crafter3	Crafter Tier 3 default block	174	100	163	rftoolsutility:crafter3	default-visible
+default-creative-screen	Creative Screen default block	177	100	163	rftoolsutility:creative_screen	default-visible
+default-destination-analyzer	Destination Analyzer default block	180	100	163	rftoolsutility:destination_analyzer	default-visible
+default-dialing-device	Dialing Device default block	183	100	163	rftoolsutility:dialing_device	default-visible
+default-digit	Digit default block	186	100	163	rftoolsutility:digit	default-visible
+default-environmental-controller	Environmental Controller default block	162	100	167	rftoolsutility:environmental_controller	default-visible
+default-invchecker	Inventory Checker default block	165	100	167	rftoolsutility:invchecker	default-visible
+default-logic	Logic default block	168	100	167	rftoolsutility:logic	default-visible
+default-matter-beamer	Matter Beamer default block	171	100	167	rftoolsutility:matter_beamer	default-visible
+default-matter-booster	Matter Booster default block	174	100	167	rftoolsutility:matter_booster	default-visible
+default-matter-receiver	Matter Receiver default block	177	100	167	rftoolsutility:matter_receiver	default-visible
+default-matter-transmitter	Matter Transmitter default block	180	100	167	rftoolsutility:matter_transmitter	default-visible
+default-redstone-receiver	Redstone Receiver default block	183	100	167	rftoolsutility:redstone_receiver	default-visible
+default-redstone-transmitter	Redstone Transmitter default block	186	100	167	rftoolsutility:redstone_transmitter	default-visible
+default-screen	Screen default block	162	100	171	rftoolsutility:screen	default-visible
+default-screen-controller	Screen Controller default block	165	100	171	rftoolsutility:screen_controller	default-visible
+default-sensor	Sensor default block	168	100	171	rftoolsutility:sensor	default-visible
+default-sequencer	Sequencer default block	171	100	171	rftoolsutility:sequencer	default-visible
+default-simple-dialer	Simple Dialer default block	174	100	171	rftoolsutility:simple_dialer	default-visible
+default-spawner	Spawner default block	177	100	171	rftoolsutility:spawner	default-visible
+default-tank	Tank default block	180	100	171	rftoolsutility:tank	default-visible
+default-timer	Timer default block	183	100	171	rftoolsutility:timer	default-visible
+default-wire	Wire default block	186	100	171	rftoolsutility:wire	default-visible
+tank-cluster-base	Tank cluster base	162	100	176	rftoolsutility:tank	adjacent-visible
+tank-cluster-east	Tank cluster east neighbor	163	100	176	rftoolsutility:tank	adjacent-visible
+tank-cluster-above	Tank cluster upper neighbor	162	101	176	rftoolsutility:tank	adjacent-visible
+stock-control	Stone stock rendering control	168	100	176	minecraft:stone	stock-visible
