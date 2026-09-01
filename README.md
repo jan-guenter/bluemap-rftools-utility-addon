@@ -3,7 +3,7 @@
 A Java 21 BlueMap add-on for the exact `rftoolsutility-1.21-7.0.12` profile in All the Mons
 `1.2.0` / Minecraft `1.21.1`.
 
-Version `0.1.0-alpha.2` is the unpublished native BlueMap 5.23 migration
+Version `0.1.0-alpha.2` is the owner-accepted native BlueMap 5.23 release
 candidate. It preserves the owner-accepted `0.1.0-alpha.1` contract. The exact
 artifact gate replaces the unsupported custom tank loader with the client's
 stable empty-tank cube and installed textures. The other RFTools Utility blocks
