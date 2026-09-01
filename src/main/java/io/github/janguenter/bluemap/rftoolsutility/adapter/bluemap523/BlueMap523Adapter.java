@@ -2,16 +2,17 @@
  * SPDX-License-Identifier: MIT
  */
 
-package io.github.janguenter.bluemap.rftoolsutility.adapter.bluemap522;
+package io.github.janguenter.bluemap.rftoolsutility.adapter.bluemap523;
 
 import de.bluecolored.bluemap.core.map.hires.block.BlockRendererType;
 import de.bluecolored.bluemap.core.resources.pack.resourcepack.ResourcePack;
-import de.bluecolored.bluemap.core.resources.pack.resourcepack.blockstate.Variant;
 import de.bluecolored.bluemap.core.util.Key;
+import io.github.janguenter.bluemap.addon.adapter.api.bluemap523.RegistryGuard;
+import io.github.janguenter.bluemap.addon.adapter.api.bluemap523.ResourceExtensionType;
 import io.github.janguenter.bluemap.rftoolsutility.activation.AddonRuntime;
 
-/** BlueMap 5.22 registration boundary. Family renderer registrations go here. */
-public final class BlueMap522Adapter {
+/** BlueMap 5.23 feature-backport registration boundary. */
+public final class BlueMap523Adapter {
 
     private static final AddonRuntime RUNTIME = AddonRuntime.INSTANCE;
     private static final BlockRendererType TANK_RENDERER = new BlockRendererType.Impl(
@@ -21,9 +22,12 @@ public final class BlueMap522Adapter {
             )
     );
     private static final ResourcePack.Extension<ProfileResourceExtension> EXTENSION =
-            new ProfileResourceExtensionType(RUNTIME);
+            new ResourceExtensionType<>(
+                    Key.parse("bluemap_rftools_utility:exact_profile"),
+                    pack -> new ProfileResourceExtension(pack, RUNTIME)
+            );
 
-    private BlueMap522Adapter() {
+    private BlueMap523Adapter() {
     }
 
     /** Registers the exact tank renderer and its fail-closed resource route. */
@@ -41,12 +45,7 @@ public final class BlueMap522Adapter {
         return true;
     }
 
-    static boolean isExpectedDispatch(Variant variant) {
-        return variant != null
-                && variant.getRenderer() == TANK_RENDERER
-                && ResourcePack.MISSING_BLOCK_MODEL.equals(variant.getModel())
-                && !variant.isTransformed()
-                && !variant.isUvlock()
-                && Double.compare(variant.getWeight(), 1D) == 0;
+    static BlockRendererType renderer() {
+        return TANK_RENDERER;
     }
 }
