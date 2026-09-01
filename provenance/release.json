@@ -33,23 +33,23 @@
   "candidate_artifacts": {
     "production_jar": {
       "file_name": "bluemap-rftools-utility-addon-0.1.0-alpha.2.jar",
-      "size": 0,
-      "sha256": "PENDING"
+      "size": 75381,
+      "sha256": "661008bf35eb2512b39213aee934861a281eae3c2f54e9386a4f7df2be2be42b"
     },
     "sources_jar": {
       "file_name": "bluemap-rftools-utility-addon-0.1.0-alpha.2-sources.jar",
-      "size": 0,
-      "sha256": "PENDING"
+      "size": 55154,
+      "sha256": "0a936a05c0509deacab3f2fc6aad05a542376b2fbfd5efcd1a31b63802d50245"
     },
     "pom": {
       "file_name": "bluemap-rftools-utility-addon-0.1.0-alpha.2.pom",
-      "size": 0,
-      "sha256": "PENDING"
+      "size": 1365,
+      "sha256": "1abe9cf60a2a493b524966191e9fd429bc77eb6994a9f4de897557c4dda91243"
     },
     "gradle_module": {
       "file_name": "bluemap-rftools-utility-addon-0.1.0-alpha.2.module.json",
-      "size": 0,
-      "sha256": "PENDING"
+      "size": 2873,
+      "sha256": "c22aa0a7bf72fa48ccbe715f885809f58ce9ed5cb3296a3d59c6dae65da3a095"
     }
   },
   "gallery_candidate": {
@@ -89,7 +89,7 @@
     "adapter_api_gitlink_and_source_tree_gate": true,
     "production_archive_boundary_gate": true,
     "sources_archive_boundary_gate": true,
-    "local_candidate_artifact_identity_gate": false,
+    "local_candidate_artifact_identity_gate": true,
     "authoritative_pr_ci_reproduction": false,
     "local_gradle_version": "9.6.1",
     "local_java_runtime": "21.0.12.1+1",
